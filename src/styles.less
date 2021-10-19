@@ -1,1 +1,40 @@
+@import "~tailwindcss/base.css";
+@import "~tailwindcss/components.css";
+@import "~tailwindcss/utilities.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// Custom Theming for NG-ZORRO
+// For more information: https://ng.ant.design/docs/customize-theme/en
+@import "../node_modules/ng-zorro-antd/ng-zorro-antd.less";
+
+// Override less variables to here
+// View all variables: https://github.com/NG-ZORRO/ng-zorro-antd/blob/master/components/style/themes/default.less
+
+@primary-color: #548B59;
 /* You can add global styles to this file, and also import other style files */
+
+@font-size-base: 16px;
+@font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+'Noto Color Emoji';
+
+@btn-font-weight: 700;
+
+//@text-color-secondary-dark: black;
+//@text-color-inverse: purple;
+//
+//@text-color-dark: fade(@white, 85%);
+//@text-color-secondary-dark: fade(@white, 65%);
+
+//@menu-bg: #ffffff;
+
+//@layout-sider-background: #fff;
+//@menu-inline-submenu-bg: #fff;
+//@menu-dark-bg: #fff;
+@menu-item-height: 60px;
+//@menu-dark-inline-submenu-bg: #fff;
+
+nz-content {
+  @apply p-4;
+}
